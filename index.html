@@ -1,158 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" href="css/styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Web Page</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My First Web Page</title>
 </head>
 
 <body>
-  <header>
+  <header class="site-header">
+    <h1>Welcome to the World of Web Programming</h1>
+    <p class="student-name">Tembo J Ernest 202502250</p>
+    <p>Learning, Creating, and building my future through technology.</p>
     <h1>My Student Website</h1>
   </header>
 
-  <nav>
+  <nav aria-label="Main navigation">
     <a href="#about">About Me</a>
+    <a href="#hobbies">My Hobbies</a>
     <a href="#photos">My Photos</a>
     <a href="#media">My Media</a>
-    <a href="#contact">Contact</a>
+    <a href="#learning-plan">My Learning Plan</a>
+    <a href="#contact">My Contact</a>
+    <a href="#projects">My Skills &amp; Project</a>
   </nav>
 
   <main>
     <section id="about">
       <h2>About Me</h2>
-        <p>
-Hello! My name is Tembo J Ernest, and I am a student learning web development. I have a passion for technology and enjoy exploring new skills in programming and design. In my free time, I like to watch football, solve challenging problems, and play rugby. My goal is to become proficient in web technologies and create engaging websites that provide value to users.
-</p>
+      <p>
+        Hello! My name is Tembo J Ernest, and I am a student learning web development. I have a passion for technology
+        and enjoy exploring new skills in programming and design. In my free time, I like to watch football, solve
+        challenging problems, and play rugby. My goal is to become proficient in web technologies and create engaging
+        websites that provide value to users.
+      </p>
     </section>
 
     <section id="hobbies">
       <h2>My Hobbies</h2>
       <ul>
-  <li>Watching Football</li>
-  <li>solving difficult problems</li>
-  <li>Playing Rugbe</li>
-</ul>
+        <li>Watching Football</li>
+        <li>solving difficult problems</li>
+        <li>Playing Rugbe</li>
+      </ul>
     </section>
 
     <section id="learning-plan">
       <h2>My Learning Plan</h2>
-       <ol>
-  <li>Practise writing basic HTML elements.</li>
-  <li>Use CSS to style a small web page.</li>
-  <li>Build a page and test it at different screen sizes.</li>
-</ol>
+      <ol>
+        <li>Practise writing basic HTML elements.</li>
+        <li>Use CSS to style a small web page.</li>
+        <li>Build a page and test it at different screen sizes.</li>
+      </ol>
 
-<table>
-  <caption>My weekly web learning plan</caption>
-  <thead>
-    <tr>
-      <th>Day</th>
-      <th>Topic</th>
-      <th>Practice task</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Monday</td>
-      <td>HTML</td>
-      <td>Create headings and paragraphs.</td>
-    </tr>
-    <tr>
-      <td>Wednesday</td>
-      <td>CSS</td>
-      <td>Style colors, spacing, and fonts.</td>
-    </tr>
-    <tr>
-      <td>Friday</td>
-      <td>Responsive design</td>
-      <td>Check the page at a phone-sized width.</td>
-    </tr>
-  </tbody>
-</table>
+      <table>
+        <caption>My weekly web learning plan</caption>
+        <thead>
+          <tr>
+            <th>Day</th>
+            <th>Topic</th>
+            <th>Practice task</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>HTML</td>
+            <td>Create headings and paragraphs.</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td>
+            <td>CSS</td>
+            <td>Style colors, spacing, and fonts.</td>
+          </tr>
+          <tr>
+            <td>Friday</td>
+            <td>Responsive design</td>
+            <td>Check the page at a phone-sized width.</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
 
     <section id="photos">
       <h2>My Photos</h2>
       <figure>
-  <img src="images/photo1.jpg" alt="Describe what is shown in the first photo">
-  <figcaption>looking at the camera.</figcaption>
-</figure>
+        <img src="images/photo_1.jpeg" alt="Describe what is shown in the first photo">
+        <figcaption>looking at the camera.</figcaption>
+      </figure>
 
-<figure>
-  <img src="images/photo2.jpg" alt="Describe what is shown in the second photo">
-  <figcaption>covering mouth</figcaption>
-</figure>
+      <figure>
+        <img src="images/photo_2.jpeg" alt="Describe what is shown in the second photo">
+        <figcaption>covering mouth</figcaption>
+      </figure>
 
-<figure>
-  <img src="images/photo3.jpg" alt="Describe what is shown in the third photo">
-  <figcaption>finger on chin.</figcaption>
-</figure>
+      <figure>
+        <img src="images/photo_3.jpeg" alt="Describe what is shown in the third photo">
+        <figcaption>finger on chin.</figcaption>
+      </figure>
     </section>
 
-    <section id="media">
+    < id="media">
       <h2>My Media</h2>
-      <h3>My introduction video</h3>
-<p>This video introduces me, my programme, and a web skill I hope to learn.</p>
-<video controls>
-  <source src="videos/intro.mp4" type="video/mp4">
-  Your browser does not support video playback.
-</video>
-<p>
-  Video summary: I introduce myself, explain what I study, and describe a web
-  skill I want to improve.
-</p>
+      <dive class="media-item">
+        <h3>My video introduction</h3>
 
-<h3>My audio recording</h3>
-<audio controls>
-  <source src="videos/audio.m4a" type="audio/mpeg">
-  Your browser does not support audio playback.
-</audio>
-<p>This recording describes my hobby or reason for studying web technologies.</p>
-<section id="about" class="content-section">
-  <h2>About Me</h2>
-  <!-- About Me content -->
-</section>
+        <video controls preload="metadata">
+          <source src="videos/intro.mp4" type="video/mp4">
+          Your browser does not support HTML5 video.
+        </video>
 
-<section id="contact" class="content-section">
-  <h2>Contact</h2>
-  <!-- Contact form -->
-</section>
-    </section>
+        <p class="media-summar">
+          This video introduces me and provides a glimpse into my
+          student lifeand interests.
+        </p>
+      </dive>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <form action="#" method="get">
-  <p>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-  </p>
+      <audio controls preload="metadata">
+        <source src="videos/audio.m4a"> type="audio/mp4">
+        Your browser does not support HTML5 audio.
+      </audio>
 
-  <p>
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-  </p>
+      <p class="media-summery">
+        This audio recording contains my personal introduction
+        and shares information about studies and interests.
+      </p>
+      </dive>
+      </section>
 
-  <p>
-    <label for="topic">Topic:</label>
-    <input type="text" id="topic" name="topic">
-  </p>
+      <section id="projects">
+        <h2>My Skills &amp; Projects</h2>
 
-  <p>
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="5" required></textarea>
-  </p>
+        <p>
+          As a student learning web technologies, I am developing
+          practical skills through regular practice and small projects.
+        </p>
 
-  <button type="submit">Submit</button>
-</form>
+        <div class="project-container">
 
-<p>This is a browser demonstration form. It does not send data.</p>
-    </section>
+          <article class="project-card">
+            <h3>Project 1: HTML Webpage</h3>
+            <p>
+              I am learning how to structure webpages using HTML5,
+              headings, paragraphs, lists, links, and images.
+            </p>
+            <p><strong>Skill:</strong> HTML5</p>
+          </article>
+
+          <article class="project-card">
+            <h3>Project 2: CSS Website Styling</h3>
+            <p>
+              I am developing my ability to style webpages using
+              colours, spacing, typography, and layouts.
+            </p>
+            <p><strong>Skill:</strong> CSS</p>
+          </article>
+
+          <article class="project-card">
+            <h3>Project 3: Interactive Website</h3>
+            <p>
+              I am learning JavaScript to add interactive features
+              and improve the user experience of my website.
+            </p>
+            <p><strong>Skill:</strong> JavaScript</p>
+          </article>
+
+        </div>
+      </section>
+
+
+      <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form">
+
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="topic">Topic:</label>
+          <input type="text" id="topic" name="topic">
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button type="submit">Preview Message</button>
+
+          <p id="form-feedback" role="status" aria-live="polite"></p>
+
+          <div id="form-preview" hidden>
+            <h3>Message Preview</h3>
+            <p><strong>Name:</strong> <span id="preview-name"></span></p>
+            <p><strong>Email:</strong> <span id="preview-email"></span></p>
+            <p><strong>Message:</strong> <span id="preview-message"></span></p>
+          </div>
+
+          <p><small>Browser demonstration only — no message is sent.</small></p>
+
+        </form>
+
+      </section>
+
+      <table id="learning-table">
+        <caption>My Weekly Web Learning Plan</caption>
+
+        <thead>
+          <tr>
+            <th scope="col">Day</th>
+            <th scope="col">Topic</th>
+            <th scope="col">Practice Task</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>Monday</td>
+            <td>HTML</td>
+            <td>Practise creating webpages.</td>
+          </tr>
+
+          <tr>
+            <td>Wednesday</td>
+            <td>CSS</td>
+            <td>Practise styling a webpage.</td>
+          </tr>
+
+          <tr>
+            <td>Friday</td>
+            <td>Web Design</td>
+            <td>Build and test a small webpage.</td>
+          </tr>
+        </tbody>
+      </table>
+      </section>
+
+
   </main>
 
-  <footer>
-    <p>Thank you for visiting, have a great day!</p>
-  </footer>
+  <footer class="site-footer">
+    <p>copy; 2026 TEMBO ERNEST. Student Portfolio</p>
+    <p>Built as part of ICT251 Web Technologies.</p>
+    <a href="https://github.com/TemboErnest/myweb.git">View Source on GitHub</a>
 </body>
+
 </html>
